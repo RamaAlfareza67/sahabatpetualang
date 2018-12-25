@@ -1,0 +1,44 @@
+
+    #panggil-untuk-aksi {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/pendaki.png) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#panggil-untuk-aksi .pua-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#panggil-untuk-aksi .pua-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #panggil-untuk-aksi .pua-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#panggil-untuk-aksi .pua-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#panggil-untuk-aksi .pua-btn:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
